@@ -1,0 +1,28 @@
+.uk-panel#product{
+	color:#ffffff;
+	background:#3399cc;
+	box-shadow:2px 2px 3px #666666;
+}
+.uk-panel h3{
+	color:#ffffff;
+}
+
+.uk-panel#product p span{
+	display:block;
+	margin-top:15px;
+	margin-right:15px;
+}
+.uk-panel#product p img{
+	margin:0px;
+	margin-right:15px;
+	width:50%;
+	height:100%;
+}
+.uk-table td:nth-child(1){
+	text-align:center;
+
+
+}
+.uk-table td:nth-child(3){
+	text-align:center;
+}

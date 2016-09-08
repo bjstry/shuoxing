@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf=8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="硕星,服务器,硕星服务器,西安硕星,星蕴服务器,西安硕星信息技术有限公司" />
+		<meta name="description" content="硕星,西安硕星信息技术有限公司致力于为科研领域提供专业的计算模拟解决方案，公司始终本着 “以信为本， 以质取胜” 的宗旨，着眼于市场需求， 守信经营。客户在这里可以得到售前技术咨询，售中合理化方案和售后标 准化服务等一整套完善的技术支持， 从而最大限度的满足用户的需求。" />
+		<title>{$title}</title>
+		<link rel='stylesheet' href='{$smarty.const._P_}/css/uikit.min.css'>
+		<link rel='stylesheet' href='{$smarty.const._P_}/css/uikit.docs.min.css'>
+		<link rel='stylesheet' href='{$smarty.const._P_}/css/public.css'>
+		{$mycss}
+		<script src="{$smarty.const._P_}/js/jquery.js"></script>
+		<script src="{$smarty.const._P_}/js/uikit.min.js"></script>
+		<script src="{$smarty.const._P_}/js/components/slider.js"></script>
+		
+		{$myjs}
+	</head>
+	<body>
+		<div class='uk-container uk-container-center uk-margin-top uk-margin-large-bottom'>
+			<nav class='uk-navbar uk-margin-large-bottom'>
+				<a class='uk-navbar-brand uk-hidden-small' href='{$smarty.const.URL}'><img width=30 src='{$smarty.const._P_}/img/logo-small.jpg'></a>
+				
+				<ul class='uk-navbar-nav uk-hidden-small'>
+					<li class='{$instatus}'>
+						<a href='{$smarty.const.URL}/index/index.html'>首页</a>
+					</li>
+					<li class='{$slstatus}'>
+						<a href='{$smarty.const.URL}/Solution/index.html'>方案</a>
+					</li>
+					<li class='{$pdstatus}' data-uk-dropdown>
+						<a href='{$smarty.const.URL}/Product/index.html'>产品</a>
+						<!--<div class='uk-dropdown uk-dropdown-navbar'>
+							<ul class='uk-nav uk-nav-navbar'>
+								<li class='uk-nav-header uk-text-lager'>硕星产品系列</li>
+								<li>
+									<a href='{$smarty.const.URL}/Product/pseries.html'>星蕴服务器系列</a>
+								</li>
+								<li><a href='{$smarty.const.URL}/Product/wseries.html'>星蕴工作站系列</a></li>
+								<li><a href='{$smarty.const.URL}/Product/sseries.html'>星蕴集群系列</a></li>
+								<li><a href='{$smarty.const.URL}/Product/sseries.html'>星蕴GPU计算系列</a></li>
+								<li><a href='{$smarty.const.URL}/Product/sseries.html'>星蕴PC集群计算系列</a></li>
+								<li><a href='{$smarty.const.URL}/Product/sseries.html'>星蕴PC产品系列</a></li>
+							</ul>
+						</div>-->
+					</li>
+					<li class='{$svstatus}'>
+						<a href='{$smarty.const.URL}/Service/index.html'>服务</a>
+					</li>
+					<li class='{$spstatus}'>
+						<a href='{$smarty.const.URL}/Support/index.html'>技术支持</a>
+					</li>
+					<li class='{$jnstatus}'>
+						<a href='{$smarty.const.URL}/Joinus/index.html'>加入我们</a>
+					</li>
+				</ul>
+				
+				<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+				<div class="uk-navbar-brand uk-navbar-center uk-visible-small"><img width=30 src='{$smarty.const._P_}/img/logo-small.jpg'></div>
+			</nav>
