@@ -1,0 +1,75 @@
+			
+				<div class='uk-width-7-10'>
+					<div class='uk-panel' id='product'>
+						<p class="uk-clearfix">
+							<img class="uk-align-medium-left" src='{$smarty.const._P_}/img/pr1.jpg'>
+						    <span><strong class='uk-text-large'>星蕴 S 系列产品</strong><br>采用intel至强E5 2600 V4系列工作站/服务器CPU，单颗最多支持22核44线程， 支持多 CPU 技术，
+			                最大支持两颗相同型号的 E5 2600 V4 系列 CPU，顶配 44 核 88 线程， 最多 50M 超大容量缓存，
+			                40 通道 PCIE 3.0 带宽；最大支持 1TB DDR4 ECC 内存，智能 纠错，支持四通道；系统盘采用高性
+			                能 SSD，几秒之内可轻松进入操作系统，搭配大容 量机械硬盘，性能与存储齐头并进；选配 nvidia 
+			                公司 quadro 系列专业图形卡或 tesla 系列GPU加速卡，即可为专业高性能图形工作站或GPU工作站，
+			                满足客户多种功能需求.</span>
+						</p>
+					</div>
+					<table class='uk-table uk-table-hover'>
+						<tr>
+							<td colspan=4>{$row.product.name|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>CPU</td>
+							<td>{$row.product.cpu|wordwrap:26:"<br>":true}</td>
+							<td>芯片组</td>
+							<td>{$row.product.chipset|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>内存</td>
+							<td>{$row.product.memory|wordwrap:26:"<br>":true}</td>
+							<td>磁盘控制</td>
+							<td>{$row.product.satacontrol|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>RAID</td>
+							<td>{$row.product.raid|wordwrap:26:"<br>":true}</td>
+							<td>硬盘数量</td>
+							<td>{$row.product.hddcount|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>I/O扩展</td>
+							<td>{$row.product.ioex|wordwrap:26:"<br>":true}</td>
+							<td>I/O端口</td>
+							<td>{$row.product.iocount|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>网络接口</td>
+							<td>{$row.product.network|wordwrap:26:"<br>":true}</td>
+						
+							<td>电源</td>
+							<td>{$row.product.power|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>显卡</td>
+							<td>{$row.product.graphics|wordwrap:26:"<br>":true}</td>
+							<td>光驱</td>
+							<td>{$row.product.dvdrom|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>管理功能</td>
+							<td>{$row.product.manager|wordwrap:26:"<br>":true}</td>
+							<td>操作系统</td>
+							<td>{$row.product.os|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>环境温度</td>
+							<td>{$row.product.temp|wordwrap:26:"<br>":true}</td>
+							<td>电源电压</td>
+							<td>{$row.product.vol|wordwrap:26:"<br>":true}</td>
+						</tr>
+						<tr>
+							<td>机箱</td>
+							<td>{$row.product.box|wordwrap:26:"<br>":true}</td>
+							<td>参考重量</td>
+							<td>{$row.product.weight|wordwrap:26:"<br>":true}</td>
+						</tr>
+					</table>
+				</div>
+			</div>

@@ -1,0 +1,89 @@
+<ul class="uk-breadcrumb">
+    <li><a href="{$smarty.const.URL}">首页</a></li>
+    <li><a href="{$smarty.const.URL}/About/Index.html">关于硕星</a></li>
+    <li class="uk-active">><span>加入我们</span></li>
+</ul>
+<div class='uk-grid'>
+	<div class='uk-width-3-10 left' >
+		<ul class='uk-nav uk-nav-side'>
+			<li><a href='{$smarty.const.URL}/About/Index.html'>公司介绍</a></li>
+			<li><a href='{$smarty.const.URL}/About/culture.html'>企业文化</a></li>
+			<li class='{$status}'><a href='{$smarty.const.URL}/About/joinus.html'>加入硕星</a></li>
+			<li><a href='{$smarty.const.URL}/About/contact.html'>联系我们</a></li>
+		</ul>
+		{literal}
+		<div class='left_info' data-uk-sticky="{top:60}">
+		{/literal}
+			<p>招聘平台直达链接</p>
+			<a class='uk-button uk-button-small uk-button-primary' href='http://company.zhaopin.com/CC426409884.htm'>智联招聘</a>
+			<a class='uk-button uk-button-small uk-button-primary' href='http://jobs.51job.com/all/co4054155.html'>前程无忧</a>
+			<a class='uk-button uk-button-small uk-button-primary' href='http://qy.58.com/41415209926928/?PGTID=0d411266-0208-8075-8325-60afc9ce0488&ClickID=1'>58同城</a>
+			<a class='uk-button uk-button-small uk-button-primary' href='http://www.ganji.com/gongsi/42305960/'>赶集网</a>
+		</div>
+	</div>
+	<div class='uk-width-7-10 right'>
+		<h1 class='uk-h1'>加入我们</h1>
+		<h2 class='uk-h2'>如果你对以下职位有兴趣，请发送简历到hr@shuoxing.info</h2>
+		{foreach $row.jobs as $val}
+		<h3 class='uk-h3'>{$val.jobname}</h3>
+		<p>岗位职责：</p>
+		<p>{$val.jobduty}</p>
+		<p>岗位要求：</p>
+		<p>{$val.jobentails}</p>
+		{/foreach}
+		<p class='uk-h4'>更多职位请关注在线招聘平台。</p>
+		<!--
+		<h4 class='uk-h4'>品牌推广员</h4>
+		<p>岗位职责:</p>
+		<p>1,负责企业形象宣传、品牌推广、展览展示和公关活动的相关平面设计工作<br>
+		2,企业VI、宣传广告、企业报、媒体广告宣传等从创意到制作的系列的美工设计工作<br>
+		3,企业发展历程中的图片、视频记录工作<br>
+		4,网络推广<br>
+		</p>
+		<p>岗位要求:</p>
+		<p>1，本科及以上学历，形象气质佳<br>
+		2，有较强的组织能力<br>
+		3，相关专业技能熟练<br>
+		4，有责任感，在工作中敢于承担责任</p>
+		<hr>
+		<h4 class='uk-h4'>销售专员</h4>
+		<p>岗位职责:</p>
+		<p>1.负责公司产品及解决方案的销售工作，执行公司相关销售策略；<br>
+		2.负责行业市场信息搜集、分析，开拓和维护行业客户；<br>
+		3.协调售前与售后技术支持资源，为客户提供良好的解决方案和服务；<br>
+	    4.负责完成上级交办的其它任务。<br>
+		</p>
+		<p>岗位要求:</p>
+		<p>1、具备优秀的沟通技巧、表达技巧和销售技巧，普通话标准流利；<br>
+		2、有开拓精神和良好的团队合作意识，有很强的学习和沟通能力，良好的协调能力；<br>
+		3、具有敬业精神，有强烈的竞争意识，能积极面对工作挑战；<br>
+		4、有良好的职业素质、合作意识及团队精神，具有较强的执行力以及上进心</p>
+		<hr>
+		<h4 class='uk-h4'>品牌推广员</h4>
+		<p>岗位职责:</p>
+		<p>1,负责企业形象宣传、品牌推广、展览展示和公关活动的相关平面设计工作<br>
+		2,企业VI、宣传广告、企业报、媒体广告宣传等从创意到制作的系列的美工设计工作<br>
+		3,企业发展历程中的图片、视频记录工作<br>
+		4,网络推广<br>
+		</p>
+		<p>岗位要求:</p>
+		<p>1，本科及以上学历，形象气质佳<br>
+		2，有较强的组织能力<br>
+		3，相关专业技能熟练<br>
+		4，有责任感，在工作中敢于承担责任</p>
+		<hr>
+		<h4 class='uk-h4'>销售专员</h4>
+		<p>岗位职责:</p>
+		<p>1.负责公司产品及解决方案的销售工作，执行公司相关销售策略；<br>
+		2.负责行业市场信息搜集、分析，开拓和维护行业客户；<br>
+		3.协调售前与售后技术支持资源，为客户提供良好的解决方案和服务；<br>
+	    4.负责完成上级交办的其它任务。<br>
+		</p>
+		<p>岗位要求:</p>
+		<p>1、具备优秀的沟通技巧、表达技巧和销售技巧，普通话标准流利；<br>
+		2、有开拓精神和良好的团队合作意识，有很强的学习和沟通能力，良好的协调能力；<br>
+		3、具有敬业精神，有强烈的竞争意识，能积极面对工作挑战；<br>
+		4、有良好的职业素质、合作意识及团队精神，具有较强的执行力以及上进心</p>
+		-->
+	</div>
+</div>
