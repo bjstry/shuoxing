@@ -4,12 +4,16 @@ class AboutC extends C{
 		$this->assign('title','关于硕星，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('jnstatus','uk-active');
 		$this->assign('status','uk-active');
+		$row['keywords'] = "硕星怎么样，硕星，硕星信息，西安硕星信息技术有限公司";
+		$this->assign('row',$row);
 		$this->display();
 	}
 	public function Culture(){
+		$row['keywords'] = "硕星文化，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('title','企业文化，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('jnstatus','uk-active');
 		$this->assign('status','uk-active');
+		$this->assign('row',$row);
 		$this->display();
 	}
 	public function Joinus(){
@@ -51,6 +55,7 @@ class AboutC extends C{
 <br>2、具备优秀的沟通技巧、表达技巧和销售技巧，普通话标准流利；<br>3、富有开拓精神和良好的团队合作意识，有很强的学习和沟通能力，良好的协调能力；<br>4、具有敬业精神，有强烈的竞争意识，能积极面对工作挑战；");
 		$this->assign('title','加入硕星，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('jnstatus','uk-active');
+		$row['keywords'] = "在硕星找工作，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('status','uk-active');
 		$this->assign('row',$row);
 		$this->assign('mycss',$mycss);
@@ -58,8 +63,10 @@ class AboutC extends C{
 	}
 	public function Contact(){
 		$this->assign('title','联系我们，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
+		$row['keywords'] = "联系硕星，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('jnstatus','uk-active');
 		$this->assign('status','uk-active');
+		$this->assign('row',$row);
 		$this->display();
 	}
 	public function Jobget(){

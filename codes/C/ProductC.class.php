@@ -22,6 +22,7 @@ class ProductC extends C{
 			'box'=>'塔式：220mm(W) x 435mm(H) x 610mm(D) 机架：435mm(W) x 220mm(H) x 610mm(D)',
 			'weight'=>'满配15.15kg左右',
 		);
+		$row['keywords'] = "星蕴，星蕴服务器，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('title','硕星产品，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('mycss',"<link rel='stylesheet' href='"._P_."/css/product.css'>");
 		$this->assign('pdstatus','uk-active');
@@ -29,8 +30,10 @@ class ProductC extends C{
 		$this->display();
 	}
 	public function Lists(){
+		$row['keywords'] = "星蕴，星蕴服务器，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('title','硕星产品，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('mycss',"<link rel='stylesheet' href='"._P_."/css/product.css'>");
+		$this->assign('row',$row);
 		$this->assign('pdstatus','uk-active');
 		$this->display();
 	}
@@ -56,6 +59,7 @@ class ProductC extends C{
 			'box'=>'塔式：220mm(W) x 435mm(H) x 610mm(D) 机架：435mm(W) x 220mm(H) x 610mm(D)',
 			'weight'=>'满配15.15kg左右',
 		);
+		$row['keywords'] = "星蕴，星蕴工作站，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('title','硕星产品，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('mycss',"<link rel='stylesheet' href='"._P_."/css/product.css'>");
 		$this->assign('pdstatus','uk-active');
@@ -84,6 +88,7 @@ class ProductC extends C{
 			'box'=>'塔式：220mm(W) x 435mm(H) x 610mm(D) 机架：435mm(W) x 220mm(H) x 610mm(D)',
 			'weight'=>'满配15.15kg左右',
 		);
+		$row['keywords'] = "星蕴，星蕴设备，硕星，硕星信息，西安硕星信息技术有限公司";
 		$this->assign('title','硕星产品，硕星，西安硕星，服务器，硕星服务器，西安硕星信息技术有限公司，西安硕星信息技术有限公司欢迎您！');
 		$this->assign('mycss',"<link rel='stylesheet' href='"._P_."/css/product.css'>");
 		$this->assign('pdstatus','uk-active');
