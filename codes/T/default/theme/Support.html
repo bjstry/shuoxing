@@ -1,0 +1,16 @@
+	<ul class="uk-breadcrumb">
+	    <li><a href="">首页</a></li>
+	    <li><span>技术支持</span></li>
+	    <li class="uk-active">><span>技术支持</span></li>
+	</ul>
+	<div class='uk-grid'>
+		<div class='uk-width-3-10'>
+					{literal}
+					<ul class="uk-nav uk-nav-side uk-nav-parent-icon product_class" data-uk-nav="{multiple:true}">
+					{/literal}
+						<li class='{$row.newsstatus}'><a href='{$smarty.const.URL}/Support/index.html'>行业相关</a></li>
+						<li class='{$row.downstatus}'><a href='{$smarty.const.URL}/Support/Download.html'>相关下载</a></li>
+						<li class='{$row.docustatus}'><a href='{$smarty.const.URL}/Support/Documentation.html'>在线文档</a></li>
+						<li class='{$row.discstatus}'><a href='{$smarty.const.URL}/Support/Discuss.html'>互动论坛</a></li>
+					</ul>
+		</div>
